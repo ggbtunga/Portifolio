@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <Welcome/>
+        <Welcome titulo="Bem-vindo" texto="ao meu portifólio,aqui você encontrará mais sobre mim e poderá vizualizar meus projetos pessoais."/>
       </div>
     </>
   )
