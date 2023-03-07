@@ -1,0 +1,10 @@
+.main_text{
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out; /* animação suave */
+    
+}
+
+.main_text.ativo{
+    transform: translateY(30px);
+    
+}
