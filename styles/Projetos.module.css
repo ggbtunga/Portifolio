@@ -1,0 +1,65 @@
+.container h1{
+    text-align: center;
+}
+
+.projetos_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1170px;
+    padding: 1.5rem 0;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.card{
+    width: 31%;
+    height: 400px;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card img{
+    border-radius: 20px;
+}
+
+.card h2{
+    text-align: center;
+    margin: 7px;
+}
+.card p{
+    margin-bottom: 5px;
+}
+
+.card_botao{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card_botao a{
+    text-decoration: none;
+    background-color: #3196d1;
+    color: white;
+    border: 2px solid rgb(255, 211, 13);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.card_botao a:hover{
+    color: black;
+    background-color: rgb(255, 211, 13);
+    transition: 0.5s;
+}
+
+@media (max-width: 872px) {
+    .projetos_container {
+      flex-direction: column;
+    }
+  }

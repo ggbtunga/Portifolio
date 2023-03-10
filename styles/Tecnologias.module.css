@@ -8,9 +8,8 @@
 }
 
 .tecs_container{
-    background-color: antiquewhite;
-    width: 600px;
-
+    max-width: 1170px;
+    flex-wrap: wrap;
 }   
 
 .tecs_items{
@@ -25,9 +24,10 @@
 }
 
 .tecs_items svg{
-    filter: grayscale(100%);
+    filter: grayscale(90%);
     border: 5px solid rgb(255, 211, 13);
     border-radius: 10px;
+    background-color: rgb(255, 211, 13);
 }
 .tecs_items svg:hover{
     filter: grayscale(0%);
@@ -42,7 +42,6 @@
     height: auto;
 }
 .tec_item_desc{
-    /* position: absolute; */
     visibility: hidden; 
     opacity: 0; 
     transition: visibility 0s, opacity 0.5s ease-in-out;
