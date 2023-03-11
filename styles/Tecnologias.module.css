@@ -14,13 +14,14 @@
 
 .tecs_items{
     width: 100%;
-
+    flex-flow: row wrap;
     list-style: none;
-    text-align: center;
+    text-align: center; 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
 }
 
 .tecs_items svg{
@@ -51,4 +52,13 @@
 .tecs_items li:hover .tec_item_desc{
     visibility: visible; 
     opacity: 1;
+}
+
+@media(max-width:673px){
+     .tecs_container{
+        display: flex;
+    }
+    .tecs{
+        margin-top: 100px;
+    }
 }

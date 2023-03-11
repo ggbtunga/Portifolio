@@ -1,17 +1,14 @@
 import styles from '@/styles/Home.module.css'
-
-import Image from "next/image"
 import Link from 'next/link'
 
 export default function Home() {
 
-
   return (
+    
     <div>
-
       <div className={styles.main_text}>
         <h1>Bem-vindo</h1>
-      <p>Olá,me chamo Hick.Neste projeto estarei te apresentando meu perfil como desenvolvedor.Desde já agradeço sua visita.</p>
+        <p>Olá,me chamo Hick.Neste projeto estarei te apresentando meu perfil como desenvolvedor.Desde já agradeço sua visita.</p>
       </div>
 
       <div className={styles.contatos}>
@@ -37,5 +34,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+      
   )
 }

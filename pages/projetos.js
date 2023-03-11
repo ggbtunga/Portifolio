@@ -8,7 +8,7 @@ export default function Projetos(){
             <h1>Projetos</h1>
             <div className={styles.projetos_container}>
                 <div className={styles.card}>
-                    <Image src="/images/ethereum.jpg" width={300} height={166} alt="ethereum"/>
+                    <Image src="/images/ethereum.jpg" width={300} height={166} alt="ethereum" priority/>
                     <h2>Ethereum</h2>
                     <p>2022 06-Jul</p>
                     <div className={styles.card_botao}>

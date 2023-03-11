@@ -45,11 +45,11 @@
     cursor: pointer;
 }
 
-@media(max-width:762px){
+/* @media(max-width:762px){
     .main_text{
         text-align: start;
     }
     .contatos_container{
         justify-content: start;
     }
-}
+} */
