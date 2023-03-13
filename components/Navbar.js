@@ -12,8 +12,8 @@ export default function Navbar(){
                 <Image
                     className={styles.logo}
                     src="/images/meulogo.png"
-                    width={80}
-                    height={80}
+                    width={100}
+                    height={100}
                     alt="logo"
                     priority="true"
                 />

@@ -1,4 +1,5 @@
 import styles from "../styles/Sobre.module.css"
+import Image from "next/image"
 
 export default function About(){
     return(
@@ -12,6 +13,7 @@ export default function About(){
                 Tenho facilidade de aprender, sou comunicativo e estou sempre aberto para novos 
                 conhecimentos que possam me aprimorar,dicas são sempre bem-vindas.
             </p>
+            <Image src="/images/fotocinza.jpg" width={200} height={290} alt="foto"/>
         </div>
     )
 }

@@ -2,8 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150px;
     color: rgb(255, 211, 13);
-    margin-top: 2em;
-
+    margin-top: 0.8em;
 }
